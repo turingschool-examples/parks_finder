@@ -14,7 +14,7 @@ _Note: This should bring up an error, but you should be able to start the server
 
 ### Challenge
 
-Sign up for a National Park Service API Key (here)[https://www.nps.gov/subjects/developer/get-started.htm]
+Sign up for a National Park Service API Key [here](https://www.nps.gov/subjects/developer/get-started.htm)
 
 [National Park Service API Docs](https://www.nps.gov/subjects/developer/api-documentation.htm)
 
