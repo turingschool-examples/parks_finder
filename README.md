@@ -1,5 +1,12 @@
 # README
 
+### Versions
+
+Rails 5.2.4.3
+
+Ruby 2.5.3
+
+## Setup
 Run through the standard Rails setup.
 
 ```bash

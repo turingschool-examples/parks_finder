@@ -7,7 +7,7 @@ end
 
 ruby '2.5.3'
 
-gem 'rails', '~> 5.1.7'
+gem 'rails', '~> 5.2.4.3'
 gem 'pg', '>= 0.18', '< 2.0'
 gem 'puma', '~> 3.12'
 gem 'sass-rails', '~> 5.0'
@@ -15,6 +15,7 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.2'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
+gem 'bootsnap'
 gem 'faraday'
 gem 'figaro'
 
@@ -26,6 +27,7 @@ group :test do
   gem 'rspec-rails'
   gem 'capybara'
   gem 'launchy'
+  gem 'simplecov'
 end
 
 group :development do
