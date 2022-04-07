@@ -26,8 +26,12 @@ end
 group :test do
   gem 'rspec-rails'
   gem 'capybara'
-  gem 'launchy'
   gem 'simplecov'
+  gem 'shoulda-matchers'
+  gem 'launchy'
+  gem 'webmock'
+  gem 'vcr'
+  gem 'orderly'
 end
 
 group :development do
