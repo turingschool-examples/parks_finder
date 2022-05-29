@@ -1,8 +1,9 @@
 <h2>Total Parks Found: <%= ParksFacade.total_parks_found(@state) %></h2>
 
-<% parks.each do |park| %>
-<p>Park Name: <%= park.name %></p>
-<p>Park Description: <%= park.description %></p>
-<p>Park Direction Info: <%= park.direction_info %></p>
-<p>Park Hours of Operation: <%= park.hours %></p>
+<% @parks.each do |park| %>
+<p><strong>Park Name: </strong><%= park.name %></p>
+<p><strong>Park Description: </strong><%= park.description %></p>
+<p><strong>Park Direction Info: </strong><%= park.direction_info %></p>
+<p><strong>Park Hours of Operation: </strong><%= park.hours %></p>
+<br>
 <% end %>

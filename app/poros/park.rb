@@ -5,6 +5,6 @@ class Park
     @name = data[:fullName]
     @description = data[:description]
     @direction_info = data[:directionsInfo]
-    @hours = data[:operatingHours][:standardHours]
+    @hours = data[:operatingHours][0][:standardHours]
   end
 end
