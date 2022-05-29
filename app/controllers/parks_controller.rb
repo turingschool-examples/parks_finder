@@ -1,5 +1,5 @@
 class ParksController < ApplicationController
   def index
-    @parks = Parks.all
+    @parks = ParksFacade.create_park(params[:state])
   end
 end
