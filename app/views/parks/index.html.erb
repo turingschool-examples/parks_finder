@@ -1,0 +1,34 @@
+<h1> hello i am the park page </h1>
+
+<% @parks.each do |park| %>
+  <p>
+    Name: <%=park.full_name%>
+  </p>
+  <p>
+    Description: <%=park.description%>
+  </p>
+  <p>
+    Directions: <%=park.direction_info%>
+  </p>
+  <p>
+    Monday Hours: <%=park.standard_hours[:monday]%>
+  </p>
+  <p>
+    Tuesday Hours: <%=park.standard_hours[:tuesday]%>
+  </p>
+  <p>
+    Wednesday Hours: <%=park.standard_hours[:wednesday]%>
+  </p>
+  <p>
+    Thursday Hours: <%=park.standard_hours[:thursday]%>
+  </p>
+  <p>
+    Friday Hours: <%=park.standard_hours[:friday]%>
+  </p>
+  <p>
+    Saturday Hours: <%=park.standard_hours[:saturday]%>
+  </p>
+  <p>
+    Sunday Hours: <%=park.standard_hours[:sunday]%>
+  </p>
+<% end %>
